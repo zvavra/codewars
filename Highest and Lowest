@@ -1,0 +1,9 @@
+def high_and_low(numbers):
+    # split numbers based on space
+    highest = max(numbers.split(' '))
+    lowest = min(numbers.split(' '))
+    both = highest + " " + lowest
+    return both
+    #return max(numbers.split(' ')), min(numbers.split(' '))
+
+high_and_low("8 3 -5 42 -1 0 0 -9 4 7 4 -4")
